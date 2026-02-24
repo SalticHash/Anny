@@ -17,7 +17,7 @@ config/icon="uid://dqlys0n3uqafv"
 
 [editor_plugins]
 
-enabled=PackedStringArray("res://addons/hackatime/plugin.cfg")
+enabled=PackedStringArray("res://addons/godot_super-wakatime/plugin.cfg")
 
 [input]
 
