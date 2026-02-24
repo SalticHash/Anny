@@ -1,0 +1,43 @@
+[gd_scene format=4 uid="uid://dsdkldpvhuf38"]
+
+[ext_resource type="Script" uid="uid://cm37vj13g8t73" path="res://world/store/collect/collect.gd" id="1_dlprl"]
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_nyspk"]
+albedo_color = Color(1, 0.26006752, 0.33538887, 1)
+
+[sub_resource type="ArrayMesh" id="ArrayMesh_dlprl"]
+_surfaces = [{
+"aabb": AABB(-0.061668746, -0.082224995, -0.07120893, 0.12333749, 0.16444999, 0.14241786),
+"attribute_data": PackedByteArray("VVVVP6uqKj+rqio/q6oqP6uqKj+rqqo+AAAAP6uqKj+rqio/q6oqP6uqKj8AAIA/q6oqP6uqKj8AAAA/q6oqPwAAAD+rqqo+q6oqP6uqKj9VVVU/q6oqP1VVVT8AAIA/AACAP6uqKj9VVVU/q6oqP1VVVT+rqqo+VVVVP6uqKj8AAIA/q6oqPwAAgD8AAIA/AAAAP6uqqj6rqio/q6qqPquqKj+rqio/q6oqP6uqqj4AAAA/q6qqPgAAAD8AAAAAq6oqP6uqqj5VVVU/q6qqPlVVVT+rqio/VVVVP6uqqj6rqio/q6qqPquqKj8AAAAAVVVVP6uqqj4AAIA/q6qqPgAAgD+rqio/AACAP6uqqj5VVVU/q6qqPlVVVT8AAAAAq6qqPquqKj8AAAA/q6oqPwAAAD8AAIA/AAAAP6uqKj+rqqo+q6oqP6uqqj6rqqo+AAAAAKuqKj+rqio+q6oqP6uqKj4AAIA/q6oqPquqKj8AAAAAq6oqPwAAAACrqqo+q6oqPquqKj+rqqo+q6oqP6uqqj4AAIA/q6qqPquqKj+rqio+q6oqP6uqKj6rqqo+q6qqPquqqj4AAAA/q6qqPgAAAD+rqio/AAAAP6uqqj6rqqo+q6qqPquqqj4AAAAAq6oqPquqqj6rqqo+q6qqPquqqj6rqio/q6oqPquqqj4AAAAAq6qqPgAAAAAAAAAAAAAAAKuqqj6rqio+q6qqPquqKj6rqio/q6qqPquqqj6rqio+q6qqPquqKj4AAAAA"),
+"format": 34359738391,
+"material": SubResource("StandardMaterial3D_nyspk"),
+"primitive": 3,
+"uv_scale": Vector4(0, 0, 0, 0),
+"vertex_count": 72,
+"vertex_data": PackedByteArray("Xph8vZRlKL391RE9Xph8vZRlKL391RG9Xph8vZRlKD391RG9atwgI5RlKL391ZG9Xph8vZRlKL391RG9AAAAAJRlqL0AAAAAXph8vZRlKL391RG9atwgI5RlKL391ZG9atwgI5RlKD391ZG9Xph8vZRlKL391RG9Xph8vZRlKL391RE9AAAAAJRlqL0AAAAAAAAAAJRlKL391ZE9Xph8vZRlKL391RE9Xph8vZRlKD391RE9Xph8vZRlKL391RE9AAAAAJRlKL391ZE9AAAAAJRlqL0AAAAAatwgI5RlKD391ZG9Xph8vZRlKD391RG9Xph8vZRlKL391RG9Xph8vZRlKD391RG9atwgI5RlKD391ZG9AAAAAJRlqD0AAAAAXph8vZRlKD391RG9Xph8vZRlKD391RE9Xph8vZRlKL391RE9Xph8vZRlKD391RE9Xph8vZRlKD391RG9AAAAAJRlqD0AAAAAXph8vZRlKD391RE9AAAAAJRlKD391ZE9AAAAAJRlKL391ZE9AAAAAJRlKD391ZE9Xph8vZRlKD391RE9AAAAAJRlqD0AAAAAXph8PZRlKL391RG9atwgI5RlKL391ZG9AAAAAJRlqL0AAAAAatwgI5RlKL391ZG9Xph8PZRlKL391RG9Xph8PZRlKD391RG9AAAAAJRlKL391ZE9Xph8PZRlKL391RE9AAAAAJRlqL0AAAAAXph8PZRlKL391RE9AAAAAJRlKL391ZE9AAAAAJRlKD391ZE9Xph8PZRlKL391RE9Xph8PZRlKL391RG9AAAAAJRlqL0AAAAAXph8PZRlKL391RG9Xph8PZRlKL391RE9Xph8PZRlKD391RE9Xph8PZRlKD391RG9atwgI5RlKD391ZG9atwgI5RlKL391ZG9atwgI5RlKD391ZG9Xph8PZRlKD391RG9AAAAAJRlqD0AAAAAXph8PZRlKD391RE9Xph8PZRlKD391RG9Xph8PZRlKL391RG9Xph8PZRlKD391RE9AAAAAJRlKD391ZE9AAAAAJRlqD0AAAAAAAAAAJRlKD391ZE9Xph8PZRlKD391RE9Xph8PZRlKL391RE9Xph8PZRlKD391RG9Xph8PZRlKD391RE9AAAAAJRlqD0AAAAAAAD/f/9//78AAP9//3//vwAA/3//f/+//UJUFtku/7/9QlQW2S7/v/1CVBbZLv+/AAAl0dku/78AACXR2S7/vwAAJdHZLv+/zEwyM/9//7/MTDIz/3//v8xMMjP/f/+/JVH/fyXR/78lUf9/JdH/vyVR/38l0f+/qmkBPSXR/7+qaQE9JdH/v6ppAT0l0f+/AAAl0dku/78AACXR2S7/vwAAJdHZLv+//UKq6dku/7/9Qqrp2S7/v/1CqunZLv+/AAD/f/9//78AAP9//3//vwAA/3//f/+/zEzMzP9//7/MTMzM/3//v8xMzMz/f/+/JVH/fyXR/78lUf9/JdH/vyVR/38l0f+/qmn9wiXR/7+qaf3CJdH/v6pp/cIl0f+/Ab1UFgAAbNcBvVQWAABs1wG9VBYAAGzX//8l0QAAbNf//yXRAABs1///JdEAAGzXVJYBPf//kqhUlgE9//+SqFSWAT3//5Ko2a7/f///bNfZrv9///9s19mu/3///2zXMrMyM/////8yszIz/////zKzMjP/////////f/////////9//////////3////////8l0QAAbNf//yXRAABs1///JdEAAGzXAb2q6QAAbNcBvarpAABs1wG9qukAAGzX////f/////////9//////////3//////VJb9wv//bNdUlv3C//9s11SW/cL//2zX2a7/f///bNfZrv9///9s19mu/3///2zXMrPMzP////8ys8zM/////zKzzMz/////")
+}]
+
+[sub_resource type="SphereShape3D" id="SphereShape3D_dlprl"]
+radius = 0.082
+
+[node name="AppleRed" type="RigidBody3D" unique_id=1686900822]
+collision_layer = 3
+collision_mask = 3
+script = ExtResource("1_dlprl")
+
+[node name="Mesh" type="MeshInstance3D" parent="." unique_id=1196682042]
+mesh = SubResource("ArrayMesh_dlprl")
+
+[node name="Collision" type="CollisionShape3D" parent="." unique_id=2138635257]
+shape = SubResource("SphereShape3D_dlprl")
+
+[node name="SaveCSG" type="CSGSphere3D" parent="." unique_id=1433549964]
+transform = Transform3D(1.265, 0, 0, 0, 1.265, 0, 0, 0, 1.265, 0, 0, 0)
+visible = false
+radius = 0.065
+radial_segments = 6
+rings = 3
+smooth_faces = false
+material = SubResource("StandardMaterial3D_nyspk")
+metadata/_edit_lock_ = true
+metadata/_edit_group_ = true
