@@ -1,5 +1,5 @@
 extends CharacterBody3D
-
+class_name Player
 var collects: Array[Collect] = []
 
 @onready var camera: Camera3D = %Camera

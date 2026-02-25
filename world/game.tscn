@@ -12,6 +12,8 @@
 [ext_resource type="PackedScene" uid="uid://ciibl74us5ofq" path="res://world/store/double_shelf_container.tscn" id="8_hliwg"]
 [ext_resource type="PackedScene" uid="uid://dy5sb7nvkbnbe" path="res://world/store/shelf_container.tscn" id="9_av0ep"]
 [ext_resource type="PackedScene" uid="uid://diaaftkq0xhsh" path="res://bus/bus.tscn" id="12_av0ep"]
+[ext_resource type="Script" uid="uid://47v83ml2eajl" path="res://world/bus_stop_trigger.gd" id="12_d65k2"]
+[ext_resource type="Script" uid="uid://cq53qkah817ix" path="res://world/bus_trigger.gd" id="14_fuoxl"]
 
 [sub_resource type="StandardMaterial3D" id="StandardMaterial3D_b7hlb"]
 albedo_color = Color(0.5042543, 0.86663747, 0.41414726, 1)
@@ -71,9 +73,15 @@ albedo_color = Color(0.71, 0.71, 0.71, 1)
 [sub_resource type="StandardMaterial3D" id="StandardMaterial3D_km2cl"]
 albedo_color = Color(1, 0, 0, 1)
 
+[sub_resource type="BoxShape3D" id="BoxShape3D_fuoxl"]
+size = Vector3(3.1000001, 4.9, 4.1)
+
 [sub_resource type="StandardMaterial3D" id="StandardMaterial3D_av0ep"]
 transparency = 1
 albedo_color = Color(1, 1, 1, 0)
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_ehfc1"]
+size = Vector3(7.6, 4.9, 4.1)
 
 [sub_resource type="PlaceholderTexture2D" id="PlaceholderTexture2D_2jm6r"]
 size = Vector2(4, 4)
@@ -639,22 +647,95 @@ size = Vector3(2.8553467, 0.23486328, 2.7277832)
 material = SubResource("StandardMaterial3D_km2cl")
 
 [node name="CSGSphere3D" type="CSGSphere3D" parent="World/BusStop" unique_id=1587434051]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.8, -0.8999999, 3.5000002)
+transform = Transform3D(0.25881904, 0, 0.9659258, 0, 1, 0, -0.9659258, 0, 0.25881904, -1.2223186, -2.6, 7.9158916)
 
-[node name="CSGSphere3D5" type="CSGSphere3D" parent="World/BusStop" unique_id=1349009137]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.8, -0.8999999, 4.8)
+[node name="CSGSphere3D13" type="CSGSphere3D" parent="World/BusStop" unique_id=862444241]
+transform = Transform3D(0.25881904, 0, 0.9659258, 0, 1, 0, -0.9659258, 0, 0.25881904, -0.91173935, -2.2999997, 6.756777)
 
-[node name="CSGSphere3D2" type="CSGSphere3D" parent="World/BusStop" unique_id=307897110]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.099999964, -0.3, 5.6)
+[node name="CSGSphere3D14" type="CSGSphere3D" parent="World/BusStop" unique_id=1330241229]
+transform = Transform3D(0.25881904, 0, 0.9659258, 0, 1, 0, -0.9659258, 0, 0.25881904, -0.62703705, -1.8999996, 5.6942577)
 
-[node name="CSGSphere3D6" type="CSGSphere3D" parent="World/BusStop" unique_id=1637767447]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.100000024, -0.3, 7.1000004)
+[node name="CSGSphere3D15" type="CSGSphere3D" parent="World/BusStop" unique_id=500199525]
+transform = Transform3D(0.25881904, 0, 0.9659258, 0, 1, 0, -0.9659258, 0, 0.25881904, -0.34233475, -1.5999997, 4.6317387)
 
-[node name="CSGSphere3D3" type="CSGSphere3D" parent="World/BusStop" unique_id=1664361179]
-transform = Transform3D(1, 0, 2.9802322e-08, 0, 1, 0, -2.9802322e-08, 0, 1, 1.1873474, -0.10000001, 8.059149)
+[node name="CSGSphere3D16" type="CSGSphere3D" parent="World/BusStop" unique_id=430214195]
+transform = Transform3D(0.25881904, 0, 0.9659258, 0, 1, 0, -0.9659258, 0, 0.25881904, -0.05763817, -1.2999997, 3.5692234)
 
-[node name="CSGSphere3D7" type="CSGSphere3D" parent="World/BusStop" unique_id=1185955926]
-transform = Transform3D(1, 0, 2.9802322e-08, 0, 1, 0, -2.9802322e-08, 0, 1, 2.2873476, 0.59999996, 8.559149)
+[node name="CSGSphere3D2" type="CSGSphere3D" parent="World/BusStop" unique_id=1289446611]
+transform = Transform3D(0.7071067, 0, 0.7071069, 0, 1, 0, -0.7071069, 0, 0.7071067, 0.021860123, -3.8999996, 9.685236)
+
+[node name="CSGSphere3D12" type="CSGSphere3D" parent="World/BusStop" unique_id=1926668208]
+transform = Transform3D(0.7071067, 0, 0.7071069, 0, 1, 0, -0.7071069, 0, 0.7071067, -0.75596046, -3.1999998, 8.907419)
+
+[node name="CSGSphere3D3" type="CSGSphere3D" parent="World/BusStop" unique_id=1498566536]
+transform = Transform3D(0.7071067, 0, 0.7071069, 0, 1, 0, -0.7071069, 0, 0.7071067, 1.1532326, -4.4, 10.816603)
+
+[node name="CSGSphere3D4" type="CSGSphere3D" parent="World/BusStop" unique_id=666917768]
+transform = Transform3D(0.7071067, 0, 0.7071069, 0, 1, 0, -0.7071069, 0, 0.7071067, 2.708868, -4.4, 12.37224)
+
+[node name="CSGSphere3D5" type="CSGSphere3D" parent="World/BusStop" unique_id=894724328]
+transform = Transform3D(0.7071067, 0, 0.7071069, 0, 1, 0, -0.7071069, 0, 0.7071067, 4.123081, -4.4, 13.786455)
+
+[node name="CSGSphere3D6" type="CSGSphere3D" parent="World/BusStop" unique_id=376265254]
+transform = Transform3D(0.7071067, 0, 0.7071069, 0, 1, 0, -0.7071069, 0, 0.7071067, 5.6080055, -4.4, 15.271376)
+
+[node name="CSGSphere3D8" type="CSGSphere3D" parent="World/BusStop" unique_id=802511904]
+transform = Transform3D(0.86602527, 0, 0.5000002, 0, 1, 0, -0.5000002, 0, 0.86602527, 7.8598166, -4, 15.916254)
+
+[node name="CSGSphere3D17" type="CSGSphere3D" parent="World/BusStop" unique_id=1985753244]
+transform = Transform3D(0.86602527, 0, 0.5000002, 0, 1, 0, -0.5000002, 0, 0.86602527, 8.899057, -3.6999998, 15.316248)
+
+[node name="CSGSphere3D18" type="CSGSphere3D" parent="World/BusStop" unique_id=201867898]
+transform = Transform3D(0.86602527, 0, 0.5000002, 0, 1, 0, -0.5000002, 0, 0.86602527, 9.851685, -3.2999995, 14.766249)
+
+[node name="CSGSphere3D19" type="CSGSphere3D" parent="World/BusStop" unique_id=1196830725]
+transform = Transform3D(0.86602527, 0, 0.5000002, 0, 1, 0, -0.5000002, 0, 0.86602527, 10.804319, -3.0000002, 14.216242)
+
+[node name="CSGSphere3D20" type="CSGSphere3D" parent="World/BusStop" unique_id=787280074]
+transform = Transform3D(0.86602527, 0, 0.5000002, 0, 1, 0, -0.5000002, 0, 0.86602527, 11.756936, -2.7, 13.666243)
+
+[node name="CSGSphere3D9" type="CSGSphere3D" parent="World/BusStop" unique_id=1862750323]
+transform = Transform3D(0.86602527, 0, 0.5000002, 0, 1, 0, -0.5000002, 0, 0.86602527, 12.622955, -2.1, 13.166253)
+
+[node name="CSGSphere3D21" type="CSGSphere3D" parent="World/BusStop" unique_id=1281916233]
+transform = Transform3D(0.86602527, 0, 0.5000002, 0, 1, 0, -0.5000002, 0, 0.86602527, 13.662196, -1.7999998, 12.566247)
+
+[node name="CSGSphere3D22" type="CSGSphere3D" parent="World/BusStop" unique_id=1671727214]
+transform = Transform3D(0.86602527, 0, 0.5000002, 0, 1, 0, -0.5000002, 0, 0.86602527, 14.614823, -1.3999995, 12.016248)
+
+[node name="CSGSphere3D23" type="CSGSphere3D" parent="World/BusStop" unique_id=665146769]
+transform = Transform3D(0.86602527, 0, 0.5000002, 0, 1, 0, -0.5000002, 0, 0.86602527, 15.567458, -1.1000003, 11.466241)
+
+[node name="CSGSphere3D24" type="CSGSphere3D" parent="World/BusStop" unique_id=762382254]
+transform = Transform3D(0.86602527, 0, 0.5000002, 0, 1, 0, -0.5000002, 0, 0.86602527, 16.520075, -0.8000001, 10.916242)
+
+[node name="CSGSphere3D10" type="CSGSphere3D" parent="World/BusStop" unique_id=277052967]
+transform = Transform3D(0.86602527, 0, 0.5000002, 0, 1, 0, -0.5000002, 0, 0.86602527, 17.472696, -0.39999986, 10.366252)
+
+[node name="CSGSphere3D25" type="CSGSphere3D" parent="World/BusStop" unique_id=487371964]
+transform = Transform3D(0.86602527, 0, 0.5000002, 0, 1, 0, -0.5000002, 0, 0.86602527, 18.511938, -0.099999785, 9.766246)
+
+[node name="CSGSphere3D26" type="CSGSphere3D" parent="World/BusStop" unique_id=500113589]
+transform = Transform3D(0.86602527, 0, 0.5000002, 0, 1, 0, -0.5000002, 0, 0.86602527, 19.464565, 0.30000055, 9.216247)
+
+[node name="CSGSphere3D27" type="CSGSphere3D" parent="World/BusStop" unique_id=483184500]
+transform = Transform3D(0.86602527, 0, 0.5000002, 0, 1, 0, -0.5000002, 0, 0.86602527, 20.4172, 0.5999998, 8.66624)
+
+[node name="CSGSphere3D28" type="CSGSphere3D" parent="World/BusStop" unique_id=298669397]
+transform = Transform3D(0.86602527, 0, 0.5000002, 0, 1, 0, -0.5000002, 0, 0.86602527, 21.369816, 0.9, 8.1162405)
+
+[node name="CSGSphere3D7" type="CSGSphere3D" parent="World/BusStop" unique_id=1571009867]
+transform = Transform3D(0.7071067, 0, 0.7071069, 0, 1, 0, -0.7071069, 0, 0.7071067, 6.9515066, -4.4, 16.614885)
+
+[node name="Area3D" type="Area3D" parent="World/BusStop" unique_id=529766237 node_paths=PackedStringArray("bus")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.5, 1.2, 0.39999998)
+script = ExtResource("12_d65k2")
+bus = NodePath("../../CSGCombiner3D5/Bus")
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="World/BusStop/Area3D" unique_id=1587432274]
+transform = Transform3D(1, 0, 2.9802322e-08, 0, 1, 0, -2.9802322e-08, 0, 1, 0, 0, 0)
+shape = SubResource("BoxShape3D_fuoxl")
+debug_color = Color(0.9797818, 0, 0.38908985, 1)
 
 [node name="CSGCombiner3D2" type="CSGCombiner3D" parent="World" unique_id=1355926063]
 use_collision = true
@@ -1089,7 +1170,7 @@ radial_segments = 8
 rings = 4
 
 [node name="CSGCombiner3D3" type="CSGCombiner3D" parent="World" unique_id=1802739898]
-transform = Transform3D(0.8365162, 0.22414386, -0.49999997, -0.25881904, 0.96592575, 0, 0.48296285, 0.1294095, 0.86602527, -57.919, 4.7891626, -0.27269894)
+transform = Transform3D(0.8365162, 0.22414386, -0.49999997, -0.25881904, 0.96592575, 0, 0.48296285, 0.1294095, 0.86602527, -65.41901, 4.7891626, -2.872699)
 use_collision = true
 collision_layer = 4
 collision_mask = 4
@@ -1107,27 +1188,46 @@ size = Vector3(34.7, 0.271, 0.6)
 transform = Transform3D(0.99999964, 0, 0, 0, 1, 0, 0, 0, 0.99999964, 0, 0.01, 1)
 size = Vector3(34.7, 0.271, 0.6)
 
+[node name="CSGCombiner3D6" type="CSGCombiner3D" parent="World" unique_id=1469970693]
+transform = Transform3D(0.83651626, -0.22414377, -0.5, 0.25881895, 0.96592575, 2.2351742e-08, 0.48296285, -0.12940954, 0.86602527, 49.408855, 0.25499272, 63.42321)
+use_collision = true
+collision_layer = 4
+collision_mask = 4
+
+[node name="Path10" type="CSGBox3D" parent="World/CSGCombiner3D6" unique_id=1849280222]
+transform = Transform3D(0.99999964, 0, 0, 0, 1, 0, 0, 0, 0.99999964, 5.0999985, 0, 0)
+size = Vector3(10, 0.271, 3.3)
+material = SubResource("StandardMaterial3D_av0ep")
+
+[node name="Path11" type="CSGBox3D" parent="World/CSGCombiner3D6" unique_id=103307405]
+transform = Transform3D(0.99999964, 0, 0, 0, 1, 0, 0, 0, 0.99999964, 5.0999985, 0.01, -1)
+size = Vector3(10, 0.271, 0.6)
+
+[node name="Path12" type="CSGBox3D" parent="World/CSGCombiner3D6" unique_id=164911034]
+transform = Transform3D(0.99999964, 0, 0, 0, 1, 0, 0, 0, 0.99999964, 5.0999985, 0.01, 1)
+size = Vector3(10, 0.271, 0.6)
+
 [node name="CSGCombiner3D4" type="CSGCombiner3D" parent="World" unique_id=1153411430]
-transform = Transform3D(0.8660253, 0, -0.49999997, 0, 0.99999994, 0, 0.49999997, 0, 0.8660253, -28.361094, 0.30615187, 16.792564)
+transform = Transform3D(0.8660253, 0, -0.49999997, 0, 0.99999994, 0, 0.49999997, 0, 0.8660253, -35.861095, 0.30615187, 14.192565)
 use_collision = true
 collision_layer = 4
 collision_mask = 4
 
 [node name="Path10" type="CSGBox3D" parent="World/CSGCombiner3D4" unique_id=539809503]
-transform = Transform3D(0.99999964, 0, 0, 0, 1, 0, 0, 0, 0.99999964, 0, 0, 0)
-size = Vector3(34.7, 0.271, 3.3)
+transform = Transform3D(0.9999994, 0, 1.4901161e-07, 0, 1, 0, -1.4901161e-07, 0, 0.9999994, 40.54998, 0, -7.6293945e-06)
+size = Vector3(115.8, 0.271, 3.3)
 material = SubResource("StandardMaterial3D_av0ep")
 
 [node name="Path11" type="CSGBox3D" parent="World/CSGCombiner3D4" unique_id=656809082]
-transform = Transform3D(0.99999964, 0, 0, 0, 1, 0, 0, 0, 0.99999964, 0, 0.01, -1)
-size = Vector3(34.7, 0.271, 0.6)
+transform = Transform3D(0.9999994, 0, 1.4901161e-07, 0, 1, 0, -1.4901161e-07, 0, 0.9999994, 40.54998, 0.00999999, -1.0000095)
+size = Vector3(115.8, 0.271, 0.6)
 
 [node name="Path12" type="CSGBox3D" parent="World/CSGCombiner3D4" unique_id=1143739070]
-transform = Transform3D(0.99999964, 0, 0, 0, 1, 0, 0, 0, 0.99999964, 0, 0.01, 1)
-size = Vector3(34.7, 0.271, 0.6)
+transform = Transform3D(0.9999994, 0, 1.4901161e-07, 0, 1, 0, -1.4901161e-07, 0, 0.9999994, 40.54998, 0.00999999, 1)
+size = Vector3(115.8, 0.271, 0.6)
 
 [node name="CSGCombiner3D5" type="CSGCombiner3D" parent="World" unique_id=717573730]
-transform = Transform3D(0.8660253, 0, -0.49999997, 0, 0.99999994, 0, 0.49999997, 0, 0.8660253, -87.337, 9.271, -17.257)
+transform = Transform3D(0.8660253, 0, -0.49999997, 0, 0.99999994, 0, 0.49999997, 0, 0.8660253, -94.837006, 9.271, -19.857)
 use_collision = true
 collision_layer = 4
 collision_mask = 4
@@ -1145,11 +1245,33 @@ size = Vector3(34.7, 0.271, 0.6)
 transform = Transform3D(0.99999964, 0, 0, 0, 1, 0, 0, 0, 0.99999964, 0, 0.01, 1)
 size = Vector3(34.7, 0.271, 0.6)
 
+[node name="Path13" type="CSGBox3D" parent="World/CSGCombiner3D5" unique_id=1052919498]
+transform = Transform3D(0.9999994, 0, 1.4901161e-07, 0, 1, 0, -1.4901161e-07, 0, 0.9999994, -17.149979, 1.0745001, 4.5776367e-05)
+size = Vector3(0.4, 2.4, 2.6000001)
+
 [node name="Bus" parent="World/CSGCombiner3D5" unique_id=1159567434 instance=ExtResource("12_av0ep")]
 transform = Transform3D(-4.3711392e-08, 0, 1.0000001, 0, 1.0000001, 0, -1.0000001, 0, -4.3711392e-08, 0, 0.1, 0)
 
-[node name="Bus2" parent="World/CSGCombiner3D5" unique_id=798285382 instance=ExtResource("12_av0ep")]
-transform = Transform3D(-4.371139e-08, 0, 1, 0, 1, 0, -1, 0, -4.371139e-08, 83.40001, -10.300001, -24.700003)
+[node name="Area3D" type="Area3D" parent="World/CSGCombiner3D5" unique_id=1706586253 node_paths=PackedStringArray("bus")]
+transform = Transform3D(1, 0, 5.9604645e-08, 0, 1.0000001, 0, -5.9604645e-08, 0, 1, 87.43741, -6.9710007, -0.29389325)
+script = ExtResource("14_fuoxl")
+bus = NodePath("../Bus")
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="World/CSGCombiner3D5/Area3D" unique_id=1692118067]
+transform = Transform3D(1, 0, -5.9604645e-08, 0, 1, 0, 5.9604645e-08, 0, 1, 0, 0, 0)
+shape = SubResource("BoxShape3D_ehfc1")
+debug_color = Color(0.9797818, 0, 0.38908985, 1)
+
+[node name="CSGCombiner3D7" type="CSGCombiner3D" parent="World" unique_id=947513162]
+use_collision = true
+collision_layer = 5
+collision_mask = 5
+
+[node name="CSGCylinder3D" type="CSGCylinder3D" parent="World/CSGCombiner3D7" unique_id=1146841388]
+transform = Transform3D(0.8660254, 0, -0.49999988, 0, 0.99999994, 0, 0.49999988, 0, 0.8660254, 92.07941, -4.563241, 87.456314)
+radius = 21.601
+height = 1.609
+sides = 13
 
 [node name="UI" type="Control" parent="." unique_id=1605684441]
 layout_mode = 3
@@ -1173,3 +1295,8 @@ offset_bottom = 2.0
 grow_horizontal = 2
 grow_vertical = 2
 texture = SubResource("PlaceholderTexture2D_2jm6r")
+
+[connection signal="body_entered" from="World/BusStop/Area3D" to="World/BusStop/Area3D" method="_on_body_entered"]
+[connection signal="body_exited" from="World/BusStop/Area3D" to="World/BusStop/Area3D" method="_on_body_exited"]
+[connection signal="body_entered" from="World/CSGCombiner3D5/Area3D" to="World/CSGCombiner3D5/Area3D" method="_on_body_entered"]
+[connection signal="body_exited" from="World/CSGCombiner3D5/Area3D" to="World/CSGCombiner3D5/Area3D" method="_on_body_exited"]
