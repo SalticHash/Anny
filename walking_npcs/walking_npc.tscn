@@ -1,0 +1,24 @@
+[gd_scene format=3 uid="uid://cy37rxu73pje1"]
+
+[ext_resource type="Script" uid="uid://7rvsd7lmycif" path="res://walking_npcs/walking_npc.gd" id="1_7dpuy"]
+[ext_resource type="SpriteFrames" uid="uid://bqg7p2e3ynssr" path="res://walking_npcs/sprites/apple.gif" id="2_4xm3f"]
+
+[sub_resource type="CapsuleShape3D" id="CapsuleShape3D_7dpuy"]
+radius = 0.25
+height = 1.275
+
+[node name="WalkingNPC" type="CharacterBody3D" unique_id=1713938021]
+collision_layer = 3
+collision_mask = 3
+script = ExtResource("1_7dpuy")
+
+[node name="Sprite" type="AnimatedSprite3D" parent="." unique_id=400348007]
+pixel_size = 0.015
+shaded = true
+texture_filter = 2
+sprite_frames = ExtResource("2_4xm3f")
+animation = &"gif"
+
+[node name="Collision" type="CollisionShape3D" parent="." unique_id=420123493]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -0.11250001, 0)
+shape = SubResource("CapsuleShape3D_7dpuy")

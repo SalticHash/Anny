@@ -16,6 +16,9 @@ var car: Car = null :
 		if car: car.ride = true
 		collision.disabled = car != null
 
+func _ready() -> void:
+	npc_info_panel.hide()
+
 var air_time: float = 0.0
 func _physics_process(delta: float) -> void:
 	if Input.is_action_just_pressed(&"throw"):
@@ -64,6 +67,7 @@ func _physics_process(delta: float) -> void:
 const DPI: float = 0.004
 func _input(event: InputEvent) -> void:
 	if event is not InputEventMouseMotion: return
+	if npc_info_open: return
 	rotate_y(-event.relative.x * DPI)
 	camera.rotation.x = clampf(
 		camera.rotation.x + -event.relative.y * DPI,
@@ -78,6 +82,8 @@ func interact_with(body: Node) -> void:
 	if body is Door:
 		body.toggle()
 		return
+	if body is WalkingNPC:
+		open_npc_info(body)
 	if body is Collect and money > 0:
 		collects.push_back(body.collect())
 		money -= 1
@@ -90,3 +96,22 @@ func throw() -> void:
 	collect.global_position = camera.to_global(Vector3.FORWARD)
 	var dir = -camera.global_transform.basis.z
 	collect.linear_velocity = dir * 7.0
+
+@onready var npc_info_panel: Panel = %WalkingNPCInfoPanel
+@onready var npc_thumb: TextureRect = %NPCThumb
+@onready var npc_desc: RichTextLabel = %NPCDesc
+@onready var npc_name: RichTextLabel = %NPCName
+var npc_info_open: bool = false
+func bold(text: String) -> String:
+	return "[b]" + text + "[/b]"
+
+func open_npc_info(npc: WalkingNPC) -> void:
+	npc_info_open = true
+	npc_name.text = bold(npc.display_name)
+	npc_desc.text = npc.desc
+	npc_thumb.texture = npc.thumb
+	npc_info_panel.show()
+
+func _exit_walking_npc_info_panel_pressed() -> void:
+	npc_info_open = false
+	npc_info_panel.hide()
