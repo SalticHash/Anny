@@ -1,0 +1,548 @@
+{
+  "apple": {
+    "raw_name": "apple",
+    "name": "Apple",
+    "animation": "./sprites/apple.gif",
+    "thumb": "./sprites/thumb/apple.jpg",
+    "desc": "Some call it basic but others say it's for education, but no one says it has some basic's in education."
+  },
+  "baseball_guy": {
+    "raw_name": "baseball_guy",
+    "name": "Baseball Guy",
+    "animation": "./sprites/baseball_guy.gif",
+    "thumb": "./sprites/thumb/baseball_guy.jpg",
+    "desc": "Even when it is home it always runs."
+  },
+  "basketball": {
+    "raw_name": "basketball",
+    "name": "Basketball",
+    "animation": "./sprites/basketball.gif",
+    "thumb": "./sprites/thumb/basketball.jpg",
+    "desc": "Bonciness is my name, bounce me because that is my name? Bouncing is game!?"
+  },
+  "beer_bottle": {
+    "raw_name": "beer_bottle",
+    "name": "Beer Bottle",
+    "animation": "./sprites/beer_bottle.gif",
+    "thumb": "./sprites/thumb/beer_bottle.jpg",
+    "desc": "WhY DoeeS EvErYoonE kAll mE dRuNkk?!"
+  },
+  "beer_mug": {
+    "raw_name": "beer_mug",
+    "name": "Beer Mug",
+    "animation": "./sprites/beer_mug.gif",
+    "thumb": "./sprites/thumb/beer_mug.jpg",
+    "desc": "It's not root beer just because it has mug in it's name."
+  },
+  "bowling_ball": {
+    "raw_name": "bowling_ball",
+    "name": "Bowling Ball",
+    "animation": "./sprites/bowling_ball.gif",
+    "thumb": "./sprites/thumb/bowling_ball.jpg",
+    "desc": "Bowling pins are it's biggest enemies."
+  },
+  "bowling_pin": {
+    "raw_name": "bowling_pin",
+    "name": "Bowling Pin",
+    "animation": "./sprites/bowling_pin.gif",
+    "thumb": "./sprites/thumb/bowling_pin.jpg",
+    "desc": "Bowling ball is it's biggest fear."
+  },
+  "cd_guy": {
+    "raw_name": "cd_guy",
+    "name": "CD Guy",
+    "animation": "./sprites/cd_guy.gif",
+    "thumb": "./sprites/thumb/cd_guy.jpg",
+    "desc": "7gbvna v00p7 10v pag g3pgv pvgg fp7 ygbpa"
+  },
+  "cd_rom": {
+    "raw_name": "cd_rom",
+    "name": "CD Rom",
+    "animation": "./sprites/cd_rom.gif",
+    "thumb": "./sprites/thumb/cd_rom.jpg",
+    "desc": "Sometimes it just wants to take roll down a CD reader."
+  },
+  "computer_penguin": {
+    "raw_name": "computer_penguin",
+    "name": "Computer Penguin",
+    "animation": "./sprites/computer_penguin.gif",
+    "thumb": "./sprites/thumb/computer_penguin.jpg",
+    "desc": "It is very enthusiastic about technology."
+  },
+  "donkey": {
+    "raw_name": "donkey",
+    "name": "Donkey",
+    "animation": "./sprites/donkey.gif",
+    "thumb": "./sprites/thumb/donkey.jpg",
+    "desc": "It isn't very fond of elephants."
+  },
+  "donut": {
+    "raw_name": "donut",
+    "name": "Donut",
+    "animation": "./sprites/donut.gif",
+    "thumb": "./sprites/thumb/donut.jpg",
+    "desc": "Sometimes it just wants to take roll down a hill."
+  },
+  "drum": {
+    "raw_name": "drum",
+    "name": "Drum",
+    "animation": "./sprites/drum.gif",
+    "thumb": "./sprites/thumb/drum.jpg",
+    "desc": "What did the penguin say to the window? you are the mOSt hated!\nBadum tsss!"
+  },
+  "earth": {
+    "raw_name": "earth",
+    "name": "Earth",
+    "animation": "./sprites/earth.gif",
+    "thumb": "./sprites/thumb/earth.jpg",
+    "desc": "It is confusing how it stands inside itself..."
+  },
+  "egg": {
+    "raw_name": "egg",
+    "name": "Egg",
+    "animation": "./sprites/egg.gif",
+    "thumb": "./sprites/thumb/egg.jpg",
+    "desc": "Even though it never met it's mother it's purpose is even greater than being breakfast."
+  },
+  "floppy_disk": {
+    "raw_name": "floppy_disk",
+    "name": "Floppy Disk",
+    "animation": "./sprites/floppy_disk.gif",
+    "thumb": "./sprites/thumb/floppy_disk.jpg",
+    "desc": "Now forgotten it is only remembered as the save icon."
+  },
+  "football": {
+    "raw_name": "football",
+    "name": "Football",
+    "animation": "./sprites/football.gif",
+    "thumb": "./sprites/thumb/football.jpg",
+    "desc": "METERS? DON'T MAKE ME KICK YOU DOWN WITH MY FOOT!"
+  },
+  "golfball": {
+    "raw_name": "golfball",
+    "name": "Golfball",
+    "animation": "./sprites/golfball.gif",
+    "thumb": "./sprites/thumb/golfball.jpg",
+    "desc": "Everyone tells it it has a hole but checking all of his limbs it still doenst know which one."
+  },
+  "guitar": {
+    "raw_name": "guitar",
+    "name": "Guitar",
+    "animation": "./sprites/guitar.gif",
+    "thumb": "./sprites/thumb/guitar.jpg",
+    "desc": "Altough not electric it's still relevant today."
+  },
+  "harmonica": {
+    "raw_name": "harmonica",
+    "name": "Harmonica",
+    "animation": "./sprites/harmonica.gif",
+    "thumb": "./sprites/thumb/harmonica.jpg",
+    "desc": "Prisoner certified!"
+  },
+  "harp": {
+    "raw_name": "harp",
+    "name": "Harp",
+    "animation": "./sprites/harp.gif",
+    "thumb": "./sprites/thumb/harp.jpg",
+    "desc": "~It is so magical, so sensible~"
+  },
+  "hockey_puck": {
+    "raw_name": "hockey_puck",
+    "name": "Hockey Puck",
+    "animation": "./sprites/hockey_puck.gif",
+    "thumb": "./sprites/thumb/hockey_puck.jpg",
+    "desc": "I've heard it has a good spirit but if I saw it running towards me I'd duck quickly!"
+  },
+  "keyboard": {
+    "raw_name": "keyboard",
+    "name": "Keyboard",
+    "animation": "./sprites/keyboard.gif",
+    "thumb": "./sprites/thumb/keyboard.jpg",
+    "desc": "It is still relevant, altough some people have forgotten"
+  },
+  "marshmallow": {
+    "raw_name": "marshmallow",
+    "name": "Marshmallow",
+    "animation": "./sprites/marshmallow.gif",
+    "thumb": "./sprites/thumb/marshmallow.jpg",
+    "desc": "Fluffy on the outside, fluffy on the inside, don't burn me alive pls (:"
+  },
+  "monitor_guy": {
+    "raw_name": "monitor_guy",
+    "name": "Monitor Guy",
+    "animation": "./sprites/monitor_guy.gif",
+    "thumb": "./sprites/thumb/monitor_guy.jpg",
+    "desc": "Cathode or not it is best paired up with it PC"
+  },
+  "orange": {
+    "raw_name": "orange",
+    "name": "Orange",
+    "animation": "./sprites/orange.gif",
+    "thumb": "./sprites/thumb/orange.jpg",
+    "desc": "Orange inside, orange outside, orange the color, orange the fruit, orange the juice.\nORANGE FOR LIFE!"
+  },
+  "penny_guy": {
+    "raw_name": "penny_guy",
+    "name": "Penny Guy",
+    "animation": "./sprites/penny_guy.gif",
+    "thumb": "./sprites/thumb/penny_guy.jpg",
+    "desc": "No one valued him and now it will be forgotten."
+  },
+  "popcan": {
+    "raw_name": "popcan",
+    "name": "Popcan",
+    "animation": "./sprites/popcan.gif",
+    "thumb": "./sprites/thumb/popcan.jpg",
+    "desc": "I'M POP INIT!"
+  },
+  "pumpkin": {
+    "raw_name": "pumpkin",
+    "name": "Pumpkin",
+    "animation": "./sprites/pumpkin.gif",
+    "thumb": "./sprites/thumb/pumpkin.jpg",
+    "desc": "Getting ground into latte every fall isn't fun, respect the pumpkin!"
+  },
+  "quarter_guy": {
+    "raw_name": "quarter_guy",
+    "name": "Quarter Guy",
+    "animation": "./sprites/quarter_guy.gif",
+    "thumb": "./sprites/thumb/quarter_guy.jpg",
+    "desc": "It admires Bill, even though it know it will never be more than 1/4 of what Bill is."
+  },
+  "soccer_ball": {
+    "raw_name": "soccer_ball",
+    "name": "Soccer Ball",
+    "animation": "./sprites/soccer_ball.gif",
+    "thumb": "./sprites/thumb/soccer_ball.jpg",
+    "desc": "The not so american cousin of the football."
+  },
+  "strawberry": {
+    "raw_name": "strawberry",
+    "name": "Strawberry",
+    "animation": "./sprites/strawberry.gif",
+    "thumb": "./sprites/thumb/strawberry.jpg",
+    "desc": "Best friend of the crepe!"
+  },
+  "tamborine": {
+    "raw_name": "tamborine",
+    "name": "Tamborine",
+    "animation": "./sprites/tamborine.gif",
+    "thumb": "./sprites/thumb/tamborine.jpg",
+    "desc": "Percussion is important and so is the tamborine."
+  },
+  "television_guy": {
+    "raw_name": "television_guy",
+    "name": "Television Guy",
+    "animation": "./sprites/television_guy.gif",
+    "thumb": "./sprites/thumb/television_guy.jpg",
+    "desc": "Like a monitor but bigger, chunkier and with less FPS"
+  },
+  "trumpet": {
+    "raw_name": "trumpet",
+    "name": "Trumpet",
+    "animation": "./sprites/trumpet.gif",
+    "thumb": "./sprites/thumb/trumpet.jpg",
+    "desc": "Very musical, very brassy and always sassy."
+  },
+  "violin": {
+    "raw_name": "violin",
+    "name": "Violin",
+    "animation": "./sprites/violin.gif",
+    "thumb": "./sprites/thumb/violin.jpg",
+    "desc": "Mosquito aproved!"
+  },
+  "volleyball": {
+    "raw_name": "volleyball",
+    "name": "Volleyball",
+    "animation": "./sprites/volleyball.gif",
+    "thumb": "./sprites/thumb/volleyball.jpg",
+    "desc": "Beach balls envy them due to their practicallity"
+  },
+  "watermellon": {
+    "raw_name": "watermellon",
+    "name": "Watermellon",
+    "animation": "./sprites/watermellon.gif",
+    "thumb": "./sprites/thumb/watermellon.jpg",
+    "desc": "Very big and refreshing fruit that is deadly afraid rubberbands."
+  },
+  "a": {
+    "raw_name": "a",
+    "name": "A",
+    "animation": "./sprites/letters/a.gif",
+    "thumb": "./sprites/letters/thumb/a.jpg",
+    "desc": "B"
+  },
+  "b": {
+    "raw_name": "b",
+    "name": "B",
+    "animation": "./sprites/letters/b.gif",
+    "thumb": "./sprites/letters/thumb/b.jpg",
+    "desc": "W"
+  },
+  "c": {
+    "raw_name": "c",
+    "name": "C",
+    "animation": "./sprites/letters/c.gif",
+    "thumb": "./sprites/letters/thumb/c.jpg",
+    "desc": "N"
+  },
+  "d": {
+    "raw_name": "d",
+    "name": "D",
+    "animation": "./sprites/letters/d.gif",
+    "thumb": "./sprites/letters/thumb/d.jpg",
+    "desc": "Y"
+  },
+  "e": {
+    "raw_name": "e",
+    "name": "E",
+    "animation": "./sprites/letters/e.gif",
+    "thumb": "./sprites/letters/thumb/e.jpg",
+    "desc": "G"
+  },
+  "f": {
+    "raw_name": "f",
+    "name": "F",
+    "animation": "./sprites/letters/f.gif",
+    "thumb": "./sprites/letters/thumb/f.jpg",
+    "desc": "1"
+  },
+  "g": {
+    "raw_name": "g",
+    "name": "G",
+    "animation": "./sprites/letters/g.gif",
+    "thumb": "./sprites/letters/thumb/g.jpg",
+    "desc": "2"
+  },
+  "h": {
+    "raw_name": "h",
+    "name": "H",
+    "animation": "./sprites/letters/h.gif",
+    "thumb": "./sprites/letters/thumb/h.jpg",
+    "desc": "A"
+  },
+  "i": {
+    "raw_name": "i",
+    "name": "I",
+    "animation": "./sprites/letters/i.gif",
+    "thumb": "./sprites/letters/thumb/i.jpg",
+    "desc": "F"
+  },
+  "j": {
+    "raw_name": "j",
+    "name": "J",
+    "animation": "./sprites/letters/j.gif",
+    "thumb": "./sprites/letters/thumb/j.jpg",
+    "desc": "H"
+  },
+  "k": {
+    "raw_name": "k",
+    "name": "K",
+    "animation": "./sprites/letters/k.gif",
+    "thumb": "./sprites/letters/thumb/k.jpg",
+    "desc": "C"
+  },
+  "l": {
+    "raw_name": "l",
+    "name": "L",
+    "animation": "./sprites/letters/l.gif",
+    "thumb": "./sprites/letters/thumb/l.jpg",
+    "desc": "X"
+  },
+  "m": {
+    "raw_name": "m",
+    "name": "M",
+    "animation": "./sprites/letters/m.gif",
+    "thumb": "./sprites/letters/thumb/m.jpg",
+    "desc": "M"
+  },
+  "n": {
+    "raw_name": "n",
+    "name": "N",
+    "animation": "./sprites/letters/n.gif",
+    "thumb": "./sprites/letters/thumb/n.jpg",
+    "desc": "3"
+  },
+  "o": {
+    "raw_name": "o",
+    "name": "O",
+    "animation": "./sprites/letters/o.gif",
+    "thumb": "./sprites/letters/thumb/o.jpg",
+    "desc": "0"
+  },
+  "p": {
+    "raw_name": "p",
+    "name": "P",
+    "animation": "./sprites/letters/p.gif",
+    "thumb": "./sprites/letters/thumb/p.jpg",
+    "desc": "J"
+  },
+  "q": {
+    "raw_name": "q",
+    "name": "Q",
+    "animation": "./sprites/letters/q.gif",
+    "thumb": "./sprites/letters/thumb/q.jpg",
+    "desc": "T"
+  },
+  "r": {
+    "raw_name": "r",
+    "name": "R",
+    "animation": "./sprites/letters/r.gif",
+    "thumb": "./sprites/letters/thumb/r.jpg",
+    "desc": "V"
+  },
+  "s": {
+    "raw_name": "s",
+    "name": "S",
+    "animation": "./sprites/letters/s.gif",
+    "thumb": "./sprites/letters/thumb/s.jpg",
+    "desc": "7"
+  },
+  "t": {
+    "raw_name": "t",
+    "name": "T",
+    "animation": "./sprites/letters/t.gif",
+    "thumb": "./sprites/letters/thumb/t.jpg",
+    "desc": "P"
+  },
+  "u": {
+    "raw_name": "u",
+    "name": "U",
+    "animation": "./sprites/letters/u.gif",
+    "thumb": "./sprites/letters/thumb/u.jpg",
+    "desc": "U"
+  },
+  "v": {
+    "raw_name": "v",
+    "name": "V",
+    "animation": "./sprites/letters/v.gif",
+    "thumb": "./sprites/letters/thumb/v.jpg",
+    "desc": "Z"
+  },
+  "w": {
+    "raw_name": "w",
+    "name": "W",
+    "animation": "./sprites/letters/w.gif",
+    "thumb": "./sprites/letters/thumb/w.jpg",
+    "desc": "Q"
+  },
+  "x": {
+    "raw_name": "x",
+    "name": "X",
+    "animation": "./sprites/letters/x.gif",
+    "thumb": "./sprites/letters/thumb/x.jpg",
+    "desc": "R"
+  },
+  "y": {
+    "raw_name": "y",
+    "name": "Y",
+    "animation": "./sprites/letters/y.gif",
+    "thumb": "./sprites/letters/thumb/y.jpg",
+    "desc": "6"
+  },
+  "z": {
+    "raw_name": "z",
+    "name": "Z",
+    "animation": "./sprites/letters/z.gif",
+    "thumb": "./sprites/letters/thumb/z.jpg",
+    "desc": "I"
+  },
+  "0": {
+    "raw_name": "0",
+    "name": "0",
+    "animation": "./sprites/letters/0.gif",
+    "thumb": "./sprites/letters/thumb/0.jpg",
+    "desc": "K"
+  },
+  "1": {
+    "raw_name": "1",
+    "name": "1",
+    "animation": "./sprites/letters/1.gif",
+    "thumb": "./sprites/letters/thumb/1.jpg",
+    "desc": "E"
+  },
+  "2": {
+    "raw_name": "2",
+    "name": "2",
+    "animation": "./sprites/letters/2.gif",
+    "thumb": "./sprites/letters/thumb/2.jpg",
+    "desc": "O"
+  },
+  "3": {
+    "raw_name": "3",
+    "name": "3",
+    "animation": "./sprites/letters/3.gif",
+    "thumb": "./sprites/letters/thumb/3.jpg",
+    "desc": "S"
+  },
+  "4": {
+    "raw_name": "4",
+    "name": "4",
+    "animation": "./sprites/letters/4.gif",
+    "thumb": "./sprites/letters/thumb/4.jpg",
+    "desc": "4"
+  },
+  "5": {
+    "raw_name": "5",
+    "name": "5",
+    "animation": "./sprites/letters/5.gif",
+    "thumb": "./sprites/letters/thumb/5.jpg",
+    "desc": "8"
+  },
+  "6": {
+    "raw_name": "6",
+    "name": "6",
+    "animation": "./sprites/letters/6.gif",
+    "thumb": "./sprites/letters/thumb/6.jpg",
+    "desc": "L"
+  },
+  "7": {
+    "raw_name": "7",
+    "name": "7",
+    "animation": "./sprites/letters/7.gif",
+    "thumb": "./sprites/letters/thumb/7.jpg",
+    "desc": "9"
+  },
+  "8": {
+    "raw_name": "8",
+    "name": "8",
+    "animation": "./sprites/letters/8.gif",
+    "thumb": "./sprites/letters/thumb/8.jpg",
+    "desc": "D"
+  },
+  "9": {
+    "raw_name": "9",
+    "name": "9",
+    "animation": "./sprites/letters/9.gif",
+    "thumb": "./sprites/letters/thumb/9.jpg",
+    "desc": "5"
+  },
+  "question": {
+    "raw_name": "question",
+    "name": "Question",
+    "animation": "./sprites/letters/question.gif",
+    "thumb": "./sprites/letters/thumb/question.jpg",
+    "desc": "Does this weird game have more to it?"
+  },
+  "exclaim": {
+    "raw_name": "exclaim",
+    "name": "Exclaim",
+    "animation": "./sprites/letters/exclaim.gif",
+    "thumb": "./sprites/letters/thumb/exclaim.jpg",
+    "desc": "Ask away all you want but a CD nevers scrathes!"
+  },
+  "dollar": {
+    "raw_name": "dollar",
+    "name": "Dollar",
+    "animation": "./sprites/letters/dollar.gif",
+    "thumb": "./sprites/letters/thumb/dollar.jpg",
+    "desc": "Money is expensive, but a guy knows more than spending has a lot."
+  },
+  "apostrophe": {
+    "raw_name": "apostrophe",
+    "name": "Apostrophe",
+    "animation": "./sprites/letters/apostrophe.gif",
+    "thumb": "./sprites/letters/thumb/apostrophe.jpg",
+    "desc": "They know the answers: \"?3!8$6 $7 !3!4!5 ?4 $11 $8 ?7 ?8\"."
+  }
+}
