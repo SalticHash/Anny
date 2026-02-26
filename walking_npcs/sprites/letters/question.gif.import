@@ -1,0 +1,15 @@
+[remap]
+
+importer="import_gif_to_sprite_frames"
+type="SpriteFrames"
+uid="uid://dl2veayhayjd5"
+path="res://.godot/imported/question.gif-6a0708152f98454c0ae325fa54127741.tres"
+
+[deps]
+
+source_file="res://walking_npcs/sprites/letters/question.gif"
+dest_files=["res://.godot/imported/question.gif-6a0708152f98454c0ae325fa54127741.tres"]
+
+[params]
+
+frames_per_second=30

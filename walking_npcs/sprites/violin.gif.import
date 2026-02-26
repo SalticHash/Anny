@@ -1,0 +1,15 @@
+[remap]
+
+importer="import_gif_to_sprite_frames"
+type="SpriteFrames"
+uid="uid://bqjw5f435qt6g"
+path="res://.godot/imported/violin.gif-3778cd531a2108e446dafb0deaf8f1d7.tres"
+
+[deps]
+
+source_file="res://walking_npcs/sprites/violin.gif"
+dest_files=["res://.godot/imported/violin.gif-3778cd531a2108e446dafb0deaf8f1d7.tres"]
+
+[params]
+
+frames_per_second=30

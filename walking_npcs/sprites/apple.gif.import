@@ -1,0 +1,15 @@
+[remap]
+
+importer="import_gif_to_sprite_frames"
+type="SpriteFrames"
+uid="uid://bqg7p2e3ynssr"
+path="res://.godot/imported/apple.gif-9dfe4f3fb89f92411ee106a7fffd7788.tres"
+
+[deps]
+
+source_file="res://walking_npcs/sprites/apple.gif"
+dest_files=["res://.godot/imported/apple.gif-9dfe4f3fb89f92411ee106a7fffd7788.tres"]
+
+[params]
+
+frames_per_second=30

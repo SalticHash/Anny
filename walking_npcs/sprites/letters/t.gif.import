@@ -1,0 +1,15 @@
+[remap]
+
+importer="import_gif_to_sprite_frames"
+type="SpriteFrames"
+uid="uid://d0clid86w2lel"
+path="res://.godot/imported/t.gif-282c6c1e865956045557409f5d5a05e8.tres"
+
+[deps]
+
+source_file="res://walking_npcs/sprites/letters/t.gif"
+dest_files=["res://.godot/imported/t.gif-282c6c1e865956045557409f5d5a05e8.tres"]
+
+[params]
+
+frames_per_second=30

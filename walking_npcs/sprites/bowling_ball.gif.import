@@ -1,0 +1,15 @@
+[remap]
+
+importer="import_gif_to_sprite_frames"
+type="SpriteFrames"
+uid="uid://d4kq11i7g2blv"
+path="res://.godot/imported/bowling_ball.gif-75decacaa04de10552a08d0f4cd5e0b7.tres"
+
+[deps]
+
+source_file="res://walking_npcs/sprites/bowling_ball.gif"
+dest_files=["res://.godot/imported/bowling_ball.gif-75decacaa04de10552a08d0f4cd5e0b7.tres"]
+
+[params]
+
+frames_per_second=30

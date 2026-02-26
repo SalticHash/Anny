@@ -1,0 +1,15 @@
+[remap]
+
+importer="import_gif_to_sprite_frames"
+type="SpriteFrames"
+uid="uid://4im10hs1b2nv"
+path="res://.godot/imported/television_guy.gif-f4729c3f0bb482f309156375db7a4041.tres"
+
+[deps]
+
+source_file="res://walking_npcs/sprites/television_guy.gif"
+dest_files=["res://.godot/imported/television_guy.gif-f4729c3f0bb482f309156375db7a4041.tres"]
+
+[params]
+
+frames_per_second=30

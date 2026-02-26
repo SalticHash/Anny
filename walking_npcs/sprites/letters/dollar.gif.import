@@ -1,0 +1,15 @@
+[remap]
+
+importer="import_gif_to_sprite_frames"
+type="SpriteFrames"
+uid="uid://bo8t47uo1fhkk"
+path="res://.godot/imported/dollar.gif-feb7fd2a191057fe8d31d44fc81cc54e.tres"
+
+[deps]
+
+source_file="res://walking_npcs/sprites/letters/dollar.gif"
+dest_files=["res://.godot/imported/dollar.gif-feb7fd2a191057fe8d31d44fc81cc54e.tres"]
+
+[params]
+
+frames_per_second=30

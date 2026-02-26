@@ -1,0 +1,15 @@
+[remap]
+
+importer="import_gif_to_sprite_frames"
+type="SpriteFrames"
+uid="uid://c0k2auq786jp2"
+path="res://.godot/imported/exclaim.gif-8aaab9939525d1a792120a8b000ac17e.tres"
+
+[deps]
+
+source_file="res://walking_npcs/sprites/letters/exclaim.gif"
+dest_files=["res://.godot/imported/exclaim.gif-8aaab9939525d1a792120a8b000ac17e.tres"]
+
+[params]
+
+frames_per_second=30

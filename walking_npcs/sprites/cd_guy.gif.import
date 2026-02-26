@@ -1,0 +1,15 @@
+[remap]
+
+importer="import_gif_to_sprite_frames"
+type="SpriteFrames"
+uid="uid://clu5hq7mpv203"
+path="res://.godot/imported/cd_guy.gif-67c55fd7a762cca6a5a693afd939dc3b.tres"
+
+[deps]
+
+source_file="res://walking_npcs/sprites/cd_guy.gif"
+dest_files=["res://.godot/imported/cd_guy.gif-67c55fd7a762cca6a5a693afd939dc3b.tres"]
+
+[params]
+
+frames_per_second=30

@@ -1,0 +1,15 @@
+[remap]
+
+importer="import_gif_to_sprite_frames"
+type="SpriteFrames"
+uid="uid://c7j01s353hd4a"
+path="res://.godot/imported/popcan.gif-43e216be86b8b016545c131a27abe1b3.tres"
+
+[deps]
+
+source_file="res://walking_npcs/sprites/popcan.gif"
+dest_files=["res://.godot/imported/popcan.gif-43e216be86b8b016545c131a27abe1b3.tres"]
+
+[params]
+
+frames_per_second=30

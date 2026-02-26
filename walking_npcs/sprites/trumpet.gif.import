@@ -1,0 +1,15 @@
+[remap]
+
+importer="import_gif_to_sprite_frames"
+type="SpriteFrames"
+uid="uid://b2vn0wexaq11b"
+path="res://.godot/imported/trumpet.gif-4a4261d050f42a89cf657c3d4c27289e.tres"
+
+[deps]
+
+source_file="res://walking_npcs/sprites/trumpet.gif"
+dest_files=["res://.godot/imported/trumpet.gif-4a4261d050f42a89cf657c3d4c27289e.tres"]
+
+[params]
+
+frames_per_second=30

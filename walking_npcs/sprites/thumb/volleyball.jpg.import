@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://hf0yyk367g85"
-path="res://.godot/imported/volleyball.jpg-a9a53da9d790d24ef5cb13d5ad46f248.ctex"
+path="res://.godot/imported/volleyball.jpg-9f6910e9f6a6bf336f883bc62c9eee53.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://walking_npcs/thumb/volleyball.jpg"
-dest_files=["res://.godot/imported/volleyball.jpg-a9a53da9d790d24ef5cb13d5ad46f248.ctex"]
+source_file="res://walking_npcs/sprites/thumb/volleyball.jpg"
+dest_files=["res://.godot/imported/volleyball.jpg-9f6910e9f6a6bf336f883bc62c9eee53.ctex"]
 
 [params]
 

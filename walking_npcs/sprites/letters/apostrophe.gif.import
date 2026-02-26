@@ -1,0 +1,15 @@
+[remap]
+
+importer="import_gif_to_sprite_frames"
+type="SpriteFrames"
+uid="uid://mvfa1bb6lbll"
+path="res://.godot/imported/apostrophe.gif-bba5ff77d6bd35bc3a7a3a55c6890b3a.tres"
+
+[deps]
+
+source_file="res://walking_npcs/sprites/letters/apostrophe.gif"
+dest_files=["res://.godot/imported/apostrophe.gif-bba5ff77d6bd35bc3a7a3a55c6890b3a.tres"]
+
+[params]
+
+frames_per_second=30

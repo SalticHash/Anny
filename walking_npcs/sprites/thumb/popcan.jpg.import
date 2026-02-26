@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://t7j4y2wi0iwx"
-path="res://.godot/imported/popcan.jpg-56c31db11f4b4c89d1fd0d74ddc59c63.ctex"
+path="res://.godot/imported/popcan.jpg-8e5f450575619bc9a222f025a46cb403.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://walking_npcs/thumb/popcan.jpg"
-dest_files=["res://.godot/imported/popcan.jpg-56c31db11f4b4c89d1fd0d74ddc59c63.ctex"]
+source_file="res://walking_npcs/sprites/thumb/popcan.jpg"
+dest_files=["res://.godot/imported/popcan.jpg-8e5f450575619bc9a222f025a46cb403.ctex"]
 
 [params]
 

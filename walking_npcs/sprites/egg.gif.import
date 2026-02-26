@@ -1,0 +1,15 @@
+[remap]
+
+importer="import_gif_to_sprite_frames"
+type="SpriteFrames"
+uid="uid://b23h3q516n58u"
+path="res://.godot/imported/egg.gif-16e1d8a59be44324418938b1a26d550b.tres"
+
+[deps]
+
+source_file="res://walking_npcs/sprites/egg.gif"
+dest_files=["res://.godot/imported/egg.gif-16e1d8a59be44324418938b1a26d550b.tres"]
+
+[params]
+
+frames_per_second=30

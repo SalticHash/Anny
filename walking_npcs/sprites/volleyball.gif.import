@@ -1,0 +1,15 @@
+[remap]
+
+importer="import_gif_to_sprite_frames"
+type="SpriteFrames"
+uid="uid://c43lq8p40kp8k"
+path="res://.godot/imported/volleyball.gif-54217ab26eb835bb5261c079bd83fb6c.tres"
+
+[deps]
+
+source_file="res://walking_npcs/sprites/volleyball.gif"
+dest_files=["res://.godot/imported/volleyball.gif-54217ab26eb835bb5261c079bd83fb6c.tres"]
+
+[params]
+
+frames_per_second=30

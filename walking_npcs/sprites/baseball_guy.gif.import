@@ -1,0 +1,15 @@
+[remap]
+
+importer="import_gif_to_sprite_frames"
+type="SpriteFrames"
+uid="uid://b1mt5qy5sluf4"
+path="res://.godot/imported/baseball_guy.gif-3cbab048c14d750de6106ba16f403b80.tres"
+
+[deps]
+
+source_file="res://walking_npcs/sprites/baseball_guy.gif"
+dest_files=["res://.godot/imported/baseball_guy.gif-3cbab048c14d750de6106ba16f403b80.tres"]
+
+[params]
+
+frames_per_second=30

@@ -1,0 +1,15 @@
+[remap]
+
+importer="import_gif_to_sprite_frames"
+type="SpriteFrames"
+uid="uid://cc1bxcv6iy8l5"
+path="res://.godot/imported/basketball.gif-dc87e3fa46aa195f352c907d0576d69c.tres"
+
+[deps]
+
+source_file="res://walking_npcs/sprites/basketball.gif"
+dest_files=["res://.godot/imported/basketball.gif-dc87e3fa46aa195f352c907d0576d69c.tres"]
+
+[params]
+
+frames_per_second=30

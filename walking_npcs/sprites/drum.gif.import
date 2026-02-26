@@ -1,0 +1,15 @@
+[remap]
+
+importer="import_gif_to_sprite_frames"
+type="SpriteFrames"
+uid="uid://cd0j7p0dr7mvq"
+path="res://.godot/imported/drum.gif-9fad7c81b718de69ccf60799e11e96c4.tres"
+
+[deps]
+
+source_file="res://walking_npcs/sprites/drum.gif"
+dest_files=["res://.godot/imported/drum.gif-9fad7c81b718de69ccf60799e11e96c4.tres"]
+
+[params]
+
+frames_per_second=30

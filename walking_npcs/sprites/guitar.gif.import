@@ -1,0 +1,15 @@
+[remap]
+
+importer="import_gif_to_sprite_frames"
+type="SpriteFrames"
+uid="uid://bew4inl160fwb"
+path="res://.godot/imported/guitar.gif-ee19d5e067327baa99c4745b796317f7.tres"
+
+[deps]
+
+source_file="res://walking_npcs/sprites/guitar.gif"
+dest_files=["res://.godot/imported/guitar.gif-ee19d5e067327baa99c4745b796317f7.tres"]
+
+[params]
+
+frames_per_second=30

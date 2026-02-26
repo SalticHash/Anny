@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://cfk6gfe1pul5y"
-path="res://.godot/imported/donut.jpg-bfcf2ea2515a6921d23f28819dc77228.ctex"
+path="res://.godot/imported/donut.jpg-ab4c71220c3f8508458c9dad43fb3238.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://walking_npcs/thumb/donut.jpg"
-dest_files=["res://.godot/imported/donut.jpg-bfcf2ea2515a6921d23f28819dc77228.ctex"]
+source_file="res://walking_npcs/sprites/thumb/donut.jpg"
+dest_files=["res://.godot/imported/donut.jpg-ab4c71220c3f8508458c9dad43fb3238.ctex"]
 
 [params]
 

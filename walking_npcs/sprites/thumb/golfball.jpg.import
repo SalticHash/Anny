@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://blrc22ipswsci"
-path="res://.godot/imported/golfball.jpg-633fd1482c3406457666791741e2fdef.ctex"
+path="res://.godot/imported/golfball.jpg-95e23b128d68b357bfb306b6c39d3211.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://walking_npcs/thumb/golfball.jpg"
-dest_files=["res://.godot/imported/golfball.jpg-633fd1482c3406457666791741e2fdef.ctex"]
+source_file="res://walking_npcs/sprites/thumb/golfball.jpg"
+dest_files=["res://.godot/imported/golfball.jpg-95e23b128d68b357bfb306b6c39d3211.ctex"]
 
 [params]
 

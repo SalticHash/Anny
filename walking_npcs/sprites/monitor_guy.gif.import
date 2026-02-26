@@ -1,0 +1,15 @@
+[remap]
+
+importer="import_gif_to_sprite_frames"
+type="SpriteFrames"
+uid="uid://bn26mnf5ft02c"
+path="res://.godot/imported/monitor_guy.gif-e962327000a7c9a707f6bc6e034f3e2f.tres"
+
+[deps]
+
+source_file="res://walking_npcs/sprites/monitor_guy.gif"
+dest_files=["res://.godot/imported/monitor_guy.gif-e962327000a7c9a707f6bc6e034f3e2f.tres"]
+
+[params]
+
+frames_per_second=30

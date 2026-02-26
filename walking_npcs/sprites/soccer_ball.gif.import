@@ -1,0 +1,15 @@
+[remap]
+
+importer="import_gif_to_sprite_frames"
+type="SpriteFrames"
+uid="uid://cs1nn1l8yosqy"
+path="res://.godot/imported/soccer_ball.gif-1eac58b3f3a0b25fd9c9def5f2238812.tres"
+
+[deps]
+
+source_file="res://walking_npcs/sprites/soccer_ball.gif"
+dest_files=["res://.godot/imported/soccer_ball.gif-1eac58b3f3a0b25fd9c9def5f2238812.tres"]
+
+[params]
+
+frames_per_second=30

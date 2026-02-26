@@ -1,0 +1,15 @@
+[remap]
+
+importer="import_gif_to_sprite_frames"
+type="SpriteFrames"
+uid="uid://urpnke656t1y"
+path="res://.godot/imported/cd_rom.gif-d991421f11a47252d03944c3a495e8fc.tres"
+
+[deps]
+
+source_file="res://walking_npcs/sprites/cd_rom.gif"
+dest_files=["res://.godot/imported/cd_rom.gif-d991421f11a47252d03944c3a495e8fc.tres"]
+
+[params]
+
+frames_per_second=30

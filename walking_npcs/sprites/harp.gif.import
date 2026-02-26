@@ -1,0 +1,15 @@
+[remap]
+
+importer="import_gif_to_sprite_frames"
+type="SpriteFrames"
+uid="uid://bpaplglfnqosm"
+path="res://.godot/imported/harp.gif-c5289ed91ce321add4a5fe96f6c84c7b.tres"
+
+[deps]
+
+source_file="res://walking_npcs/sprites/harp.gif"
+dest_files=["res://.godot/imported/harp.gif-c5289ed91ce321add4a5fe96f6c84c7b.tres"]
+
+[params]
+
+frames_per_second=30

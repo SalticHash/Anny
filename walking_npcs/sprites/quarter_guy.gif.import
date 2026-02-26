@@ -1,0 +1,15 @@
+[remap]
+
+importer="import_gif_to_sprite_frames"
+type="SpriteFrames"
+uid="uid://dh6p5oxur2nlk"
+path="res://.godot/imported/quarter_guy.gif-b63852a1968e991d47fd02fbf0d67dfc.tres"
+
+[deps]
+
+source_file="res://walking_npcs/sprites/quarter_guy.gif"
+dest_files=["res://.godot/imported/quarter_guy.gif-b63852a1968e991d47fd02fbf0d67dfc.tres"]
+
+[params]
+
+frames_per_second=30

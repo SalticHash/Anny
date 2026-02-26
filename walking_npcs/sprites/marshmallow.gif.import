@@ -1,0 +1,15 @@
+[remap]
+
+importer="import_gif_to_sprite_frames"
+type="SpriteFrames"
+uid="uid://cm7pyod4s88i5"
+path="res://.godot/imported/marshmallow.gif-4687b8fc235a6fa8d2ec61c09fc789d9.tres"
+
+[deps]
+
+source_file="res://walking_npcs/sprites/marshmallow.gif"
+dest_files=["res://.godot/imported/marshmallow.gif-4687b8fc235a6fa8d2ec61c09fc789d9.tres"]
+
+[params]
+
+frames_per_second=30

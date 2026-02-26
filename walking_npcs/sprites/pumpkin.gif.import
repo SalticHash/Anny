@@ -1,0 +1,15 @@
+[remap]
+
+importer="import_gif_to_sprite_frames"
+type="SpriteFrames"
+uid="uid://c04hyei5id2ak"
+path="res://.godot/imported/pumpkin.gif-1899b7b0778481ce3549f699b086babf.tres"
+
+[deps]
+
+source_file="res://walking_npcs/sprites/pumpkin.gif"
+dest_files=["res://.godot/imported/pumpkin.gif-1899b7b0778481ce3549f699b086babf.tres"]
+
+[params]
+
+frames_per_second=30

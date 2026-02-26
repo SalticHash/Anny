@@ -1,0 +1,15 @@
+[remap]
+
+importer="import_gif_to_sprite_frames"
+type="SpriteFrames"
+uid="uid://c0t1nq3gvn22o"
+path="res://.godot/imported/beer_bottle.gif-874a23fa0060df55af380da624a6fae5.tres"
+
+[deps]
+
+source_file="res://walking_npcs/sprites/beer_bottle.gif"
+dest_files=["res://.godot/imported/beer_bottle.gif-874a23fa0060df55af380da624a6fae5.tres"]
+
+[params]
+
+frames_per_second=30

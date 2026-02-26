@@ -1,0 +1,15 @@
+[remap]
+
+importer="import_gif_to_sprite_frames"
+type="SpriteFrames"
+uid="uid://d51mrjmwgiic"
+path="res://.godot/imported/strawberry.gif-2666b88c7d85903c5918e7721dd4f8f3.tres"
+
+[deps]
+
+source_file="res://walking_npcs/sprites/strawberry.gif"
+dest_files=["res://.godot/imported/strawberry.gif-2666b88c7d85903c5918e7721dd4f8f3.tres"]
+
+[params]
+
+frames_per_second=30

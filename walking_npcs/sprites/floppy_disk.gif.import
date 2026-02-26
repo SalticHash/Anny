@@ -1,0 +1,15 @@
+[remap]
+
+importer="import_gif_to_sprite_frames"
+type="SpriteFrames"
+uid="uid://s2pu78gcaye3"
+path="res://.godot/imported/floppy_disk.gif-6662c3f4abe4d98528b3af6de23950f1.tres"
+
+[deps]
+
+source_file="res://walking_npcs/sprites/floppy_disk.gif"
+dest_files=["res://.godot/imported/floppy_disk.gif-6662c3f4abe4d98528b3af6de23950f1.tres"]
+
+[params]
+
+frames_per_second=30

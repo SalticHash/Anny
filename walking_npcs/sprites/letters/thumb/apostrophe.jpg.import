@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://d1v1yoylj3wbl"
-path="res://.godot/imported/apostrophe.jpg-6bb1b40eb172819d7e602c3e3fbf63fe.ctex"
+path="res://.godot/imported/apostrophe.jpg-c957e1533f2444d7dd1243d351c6a697.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://walking_npcs/letters/thumb/apostrophe.jpg"
-dest_files=["res://.godot/imported/apostrophe.jpg-6bb1b40eb172819d7e602c3e3fbf63fe.ctex"]
+source_file="res://walking_npcs/sprites/letters/thumb/apostrophe.jpg"
+dest_files=["res://.godot/imported/apostrophe.jpg-c957e1533f2444d7dd1243d351c6a697.ctex"]
 
 [params]
 

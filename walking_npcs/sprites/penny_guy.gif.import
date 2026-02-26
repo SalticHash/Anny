@@ -1,0 +1,15 @@
+[remap]
+
+importer="import_gif_to_sprite_frames"
+type="SpriteFrames"
+uid="uid://drnilq1jetu6n"
+path="res://.godot/imported/penny_guy.gif-566e82aed535572ca83bfc71f9c445a9.tres"
+
+[deps]
+
+source_file="res://walking_npcs/sprites/penny_guy.gif"
+dest_files=["res://.godot/imported/penny_guy.gif-566e82aed535572ca83bfc71f9c445a9.tres"]
+
+[params]
+
+frames_per_second=30

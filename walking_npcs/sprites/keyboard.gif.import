@@ -1,0 +1,15 @@
+[remap]
+
+importer="import_gif_to_sprite_frames"
+type="SpriteFrames"
+uid="uid://cl3sxr3xt7fe3"
+path="res://.godot/imported/keyboard.gif-2730ce98964c942b548959ab9f1d1ae6.tres"
+
+[deps]
+
+source_file="res://walking_npcs/sprites/keyboard.gif"
+dest_files=["res://.godot/imported/keyboard.gif-2730ce98964c942b548959ab9f1d1ae6.tres"]
+
+[params]
+
+frames_per_second=30

@@ -1,0 +1,15 @@
+[remap]
+
+importer="import_gif_to_sprite_frames"
+type="SpriteFrames"
+uid="uid://bsi2dljbjvu6x"
+path="res://.godot/imported/donkey.gif-bc5f663619c76b60864ba4a758782f54.tres"
+
+[deps]
+
+source_file="res://walking_npcs/sprites/donkey.gif"
+dest_files=["res://.godot/imported/donkey.gif-bc5f663619c76b60864ba4a758782f54.tres"]
+
+[params]
+
+frames_per_second=30

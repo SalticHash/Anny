@@ -1,0 +1,15 @@
+[remap]
+
+importer="import_gif_to_sprite_frames"
+type="SpriteFrames"
+uid="uid://cjulhmprqnpfy"
+path="res://.godot/imported/tamborine.gif-d6766fefd78694da035acf7f02272c9d.tres"
+
+[deps]
+
+source_file="res://walking_npcs/sprites/tamborine.gif"
+dest_files=["res://.godot/imported/tamborine.gif-d6766fefd78694da035acf7f02272c9d.tres"]
+
+[params]
+
+frames_per_second=30

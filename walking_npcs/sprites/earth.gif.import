@@ -1,0 +1,15 @@
+[remap]
+
+importer="import_gif_to_sprite_frames"
+type="SpriteFrames"
+uid="uid://ufepahwicreb"
+path="res://.godot/imported/earth.gif-a6fb129ed2c5a0c4b1b03fd8b9378231.tres"
+
+[deps]
+
+source_file="res://walking_npcs/sprites/earth.gif"
+dest_files=["res://.godot/imported/earth.gif-a6fb129ed2c5a0c4b1b03fd8b9378231.tres"]
+
+[params]
+
+frames_per_second=30

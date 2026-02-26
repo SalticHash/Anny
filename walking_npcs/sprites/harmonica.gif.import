@@ -1,0 +1,15 @@
+[remap]
+
+importer="import_gif_to_sprite_frames"
+type="SpriteFrames"
+uid="uid://3ow2wbp0e2hu"
+path="res://.godot/imported/harmonica.gif-349ad39673a1888da86474633901fb47.tres"
+
+[deps]
+
+source_file="res://walking_npcs/sprites/harmonica.gif"
+dest_files=["res://.godot/imported/harmonica.gif-349ad39673a1888da86474633901fb47.tres"]
+
+[params]
+
+frames_per_second=30

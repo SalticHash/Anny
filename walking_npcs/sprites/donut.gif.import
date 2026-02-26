@@ -1,0 +1,15 @@
+[remap]
+
+importer="import_gif_to_sprite_frames"
+type="SpriteFrames"
+uid="uid://h11hcjjbgx56"
+path="res://.godot/imported/donut.gif-266b00c95df938c87bd7a835c83fbee6.tres"
+
+[deps]
+
+source_file="res://walking_npcs/sprites/donut.gif"
+dest_files=["res://.godot/imported/donut.gif-266b00c95df938c87bd7a835c83fbee6.tres"]
+
+[params]
+
+frames_per_second=30

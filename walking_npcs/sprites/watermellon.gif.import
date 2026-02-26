@@ -1,0 +1,15 @@
+[remap]
+
+importer="import_gif_to_sprite_frames"
+type="SpriteFrames"
+uid="uid://7l607lic8ild"
+path="res://.godot/imported/watermellon.gif-8001673203f68167d990d00ba92d316e.tres"
+
+[deps]
+
+source_file="res://walking_npcs/sprites/watermellon.gif"
+dest_files=["res://.godot/imported/watermellon.gif-8001673203f68167d990d00ba92d316e.tres"]
+
+[params]
+
+frames_per_second=30

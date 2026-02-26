@@ -1,0 +1,15 @@
+[remap]
+
+importer="import_gif_to_sprite_frames"
+type="SpriteFrames"
+uid="uid://0jr67xp3yolq"
+path="res://.godot/imported/hockey_puck.gif-01436d95f2b501643bf1582db89995ed.tres"
+
+[deps]
+
+source_file="res://walking_npcs/sprites/hockey_puck.gif"
+dest_files=["res://.godot/imported/hockey_puck.gif-01436d95f2b501643bf1582db89995ed.tres"]
+
+[params]
+
+frames_per_second=30

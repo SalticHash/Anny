@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://dms7xqh1uwbfg"
-path="res://.godot/imported/trumpet.jpg-2dc137eee7992fa6ead7a60edc6d46b1.ctex"
+path="res://.godot/imported/trumpet.jpg-953882873f9948e1c16468ca52e0434d.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://walking_npcs/thumb/trumpet.jpg"
-dest_files=["res://.godot/imported/trumpet.jpg-2dc137eee7992fa6ead7a60edc6d46b1.ctex"]
+source_file="res://walking_npcs/sprites/thumb/trumpet.jpg"
+dest_files=["res://.godot/imported/trumpet.jpg-953882873f9948e1c16468ca52e0434d.ctex"]
 
 [params]
 
